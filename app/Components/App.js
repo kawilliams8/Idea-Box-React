@@ -1,8 +1,12 @@
 import React from 'react';
 
 function App() {
+const style={
+  color: 'red'
+}
+
   return (
-    <h1>Hello World!</h1>
+    <h1 style={style}>Hello World!</h1>
   )
 }
 
