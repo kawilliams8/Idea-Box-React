@@ -5,13 +5,10 @@ import Form from './Form';
 import IdeaArea from './IdeaArea';
 
 function App() {
-const style={
-  color: 'red'
-}
 
   return (
     <div>
-      <h1 style={style}>Hello World!</h1>
+      <h1>IdeaBox Redux</h1>
       <Sidebar />
       <Form />
       <IdeaArea />
